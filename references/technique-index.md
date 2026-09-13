@@ -6,7 +6,7 @@ source record, example deck, and playback checks have been reviewed.
 
 | Technique | Primary PowerPoint mechanism | Status |
 | --- | --- | --- |
-| Flowing wave | Repeated shapes, grouping, motion paths | Planned |
+| Flowing wave | Repeated shapes, grouping, timed frame advance | Implemented |
 | Morph transition | Duplicate slides, object matching, Morph | Planned |
 | Mask reveal | Cover shapes, layering, motion or Morph | Planned |
 | Liquid fill | Wave shapes, masking, vertical movement | Planned |

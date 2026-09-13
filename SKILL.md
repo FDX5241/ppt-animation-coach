@@ -21,6 +21,8 @@ playback compatibility.
 4. Match the request to the technique index in
    [references/technique-index.md](references/technique-index.md). Read only the
    technique references needed for the current request.
+   The completed flowing-wave technique is documented in
+   [references/wave-animation.md](references/wave-animation.md).
 5. Prefer editable PowerPoint shapes, text, images, transitions, and animations.
    Use GIF or video only when a faithful native implementation is impractical.
 6. When reconstructing a reference video, first decide whether PowerPoint can

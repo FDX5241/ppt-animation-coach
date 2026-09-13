@@ -29,6 +29,10 @@ The repository is in its initial design phase. The skill entry point and
 technique routing are being established before animation-generation scripts and
 example presentations are added.
 
+The first implemented technique is the editable, frame-based flowing wave. See
+[`references/wave-animation.md`](references/wave-animation.md) and the playable
+[`examples/wave-animation-demo.pptx`](examples/wave-animation-demo.pptx).
+
 ## Sources and contributions
 
 Each technique reference records its tutorial sources, author, URL, and review
