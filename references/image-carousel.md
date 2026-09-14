@@ -20,6 +20,11 @@ Five rounded picture cards form a layered carousel: one large card in the center
 - Optional automatic advance after two seconds
 - Rounded cards with reflection when PowerPoint exposes the control
 
+## Example
+
+- [image-carousel-demo.pptx](../examples/image-carousel-demo.pptx)
+- [image-carousel-preview.png](../examples/image-carousel-preview.png)
+
 ## Failure modes
 
 - Pasting individual objects into an existing slide breaks object matching.
