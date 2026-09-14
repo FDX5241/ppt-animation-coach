@@ -6,20 +6,11 @@ source record, example deck, and playback checks have been reviewed.
 
 | Technique | Primary PowerPoint mechanism | Status |
 | --- | --- | --- |
-| Flowing wave | Repeated shapes, grouping, timed frame advance | Implemented |
-| Morph transition | Duplicate slides, object matching, Morph | Planned |
-| Mask reveal | Cover shapes, layering, motion or Morph | Planned |
-| Liquid fill | Wave shapes, masking, vertical movement | Planned |
-| Motion path | Custom motion paths and timing | Planned |
-| Flip card | Triggers, rotation or Morph | Planned |
-| Rolling numbers | Text stacks, vertical motion, masking | Planned |
-| Countdown | Timed text states or video fallback | Planned |
-| Progress bar | Wipe, motion path, or Morph | Planned |
-| Image carousel | Repeated images, grouping, motion or Morph | Planned |
+| Image carousel | Duplicate slides, matched picture frames, Morph | Implemented |
 
 ## Review requirements
 
-Each completed technique reference must include:
+The implemented technique reference must include:
 
 - intended visual result and suitable use cases;
 - native implementation method and editable-object expectations;

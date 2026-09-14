@@ -1,44 +1,22 @@
 ---
 name: ppt-animation-coach
-description: Create or adapt playable PowerPoint animations from text, PPTX files, slide screenshots, reference images, or accessible video examples, while preserving the original slide and teaching the technique. Use for PowerPoint animation implementation or reconstruction; do not use for ordinary static slide design.
+description: Create a five-image PowerPoint carousel with editable picture frames and Morph transitions. Use when a user wants images to rotate through a layered card layout; do not use for ordinary static slide design or unrelated animations.
 ---
 
 # PPT Animation Coach
 
-Create the animation first, then provide the teaching material as a supporting
-deliverable. Author for Microsoft PowerPoint and make a best-effort check for WPS
-playback compatibility.
+Create a playable Microsoft PowerPoint image carousel from exactly five user-supplied images. Keep the picture frames editable and explain the construction in slide notes.
 
 ## Workflow
 
-1. Inspect the user's input and identify the intended visual behavior, timing,
-   interaction, and presentation context.
-2. If the user did not specify whether to edit an existing deck or create an
-   example, ask which outcome they want. If no deck is supplied, ask the intended
-   use before designing the example slide.
-3. For a supplied deck, preserve the original slide and create the animated
-   version as a duplicate unless the user explicitly asks otherwise.
-4. Match the request to the technique index in
-   [references/technique-index.md](references/technique-index.md). Read only the
-   technique references needed for the current request.
-   The completed flowing-wave technique is documented in
-   [references/wave-animation.md](references/wave-animation.md).
-5. Prefer editable PowerPoint shapes, text, images, transitions, and animations.
-   Use GIF or video only when a faithful native implementation is impractical.
-6. When reconstructing a reference video, first decide whether PowerPoint can
-   reproduce the effect reliably. If not, explain the limitation and offer an
-   original approximation plus practical alternatives.
-7. Deliver a playable `.pptx`. Explain the result in chat and add concise
-   reproduction steps, parameters, and a practice suggestion to slide notes.
-8. Verify that the animation plays as intended in PowerPoint. Check WPS playback
-   where the available environment allows it, and disclose untested or known
-   compatibility risks.
+1. Require exactly five image paths. If fewer are supplied, ask for the missing images. If more are supplied, use the first five only after stating that choice.
+2. Run [scripts/build-image-carousel.ps1](scripts/build-image-carousel.ps1) or reproduce its construction in a connected PowerPoint session.
+3. Create five rounded picture frames: one large center card, two medium cards, and two small outer cards. Add subtle shadows, reflection, and no outline.
+4. Duplicate the entire first slide four times. Do not copy objects from the canvas into an existing slide, because new object IDs can break Morph matching.
+5. Across slides, rotate the same five picture frames one position clockwise. Keep the visual stack explicit: center in front, medium cards behind it, and the far-right small card at the bottom when it overlaps.
+6. Use PowerPoint Morph (`ppEffectMorphByObject = 3954`) for slides 2 onward, with automatic advance and a default two-second duration. Keep click advance enabled unless unattended playback is requested.
+7. Put the construction steps, object-correspondence warning, timing, and WPS caveat in speaker notes. Deliver the `.pptx` and inspect at least the first and last slide in PowerPoint.
 
 ## Source handling
 
-Use public tutorials to understand techniques, not to copy protected videos,
-transcripts, paid materials, or creator assets. Record technique sources only in
-the GitHub reference document, including creator, URL, and review date.
-
-New user-submitted techniques remain drafts until the repository maintainer
-reviews them.
+Use the user's supplied local tutorial video as the technique source. Do not copy the creator's original assets; use the user's own five images or other licensed images. Keep the source record in [references/image-carousel.md](references/image-carousel.md).
