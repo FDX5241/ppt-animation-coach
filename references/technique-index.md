@@ -7,6 +7,7 @@ source record, example deck, and playback checks have been reviewed.
 | Technique | Primary PowerPoint mechanism | Status |
 | --- | --- | --- |
 | Image carousel | Duplicate slides, matched picture frames, Morph | Implemented |
+| Three-line text progression | Duplicate slides, matched text boxes, transparency changes, Morph | Implemented |
 
 ## Review requirements
 

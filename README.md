@@ -6,7 +6,7 @@
 
 ## 当前进展
 
-目前已经完成第一项技术：
+目前已经完成两项技术：
 
 ### 图片轮播与平滑切换
 
@@ -20,6 +20,19 @@
 - 在演示稿备注中记录制作原理和操作要点
 
 这只是项目的第一项技术。后续会继续学习和加入更多 PPT 动画、转场、版式和实用功能。
+
+### 文字递进与平滑切换
+
+用户提供三条文本后，可以通过复制整页幻灯片、调整文本框位置和透明度，并使用 PowerPoint「平滑」切换，制作连续的文字递进效果：
+
+- 第一页先显示第一条文本，其余文本隐藏
+- 后续页面逐步改变已有文本的位置，并让下一条文本显现
+- 保留前后页面中文本框的一一对应关系，确保平滑切换连续
+- 文本对象保持可编辑，适合继续替换为用户自己的文案
+
+示例文件：[三条文本递进演示 PPT](examples/text-morph-3-line-demo.pptx)，[动画预览](examples/text-morph-3-line-preview.mp4)。
+
+这项技术目前先覆盖三条文本的基础版本。更长文本序列、递归缩小和旋转分组效果将在后续单独研究，不与本示例混合。
 
 ## 演示文件
 
@@ -36,6 +49,7 @@
 - [`SKILL.md`](SKILL.md)：当前 Codex Skill 的主要使用说明
 - [`references/technique-index.md`](references/technique-index.md)：已整理技术的索引
 - [`references/image-carousel.md`](references/image-carousel.md)：图片轮播技术细节
+- [`references/text-morph-3-line.md`](references/text-morph-3-line.md)：三条文本递进技术细节
 - [`scripts/build-image-carousel.ps1`](scripts/build-image-carousel.ps1)：本机 PowerPoint 生成脚本
 
 随着新技术加入，项目会继续扩展技术索引、参考文档、生成脚本和示例文件。
