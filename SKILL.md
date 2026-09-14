@@ -10,6 +10,7 @@ Route the request to one implemented technique:
 - Five-image carousel: read [references/image-carousel.md](references/image-carousel.md).
 - Three-line text progression: read [references/text-morph-3-line.md](references/text-morph-3-line.md).
 - Layered parallax Morph: read [references/parallax-morph.md](references/parallax-morph.md).
+- Four-block grid Morph: read [references/four-block-grid-morph.md](references/four-block-grid-morph.md).
 - Learning a new animation from a tutorial video: read [references/learn-animation-from-video.md](references/learn-animation-from-video.md).
 
 Preserve editable PowerPoint objects and use full-slide duplication whenever Morph depends on object correspondence. Do not paste a canvas selection into an existing slide.

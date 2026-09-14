@@ -26,7 +26,7 @@
 
 除非用户明确要求跳过素材预览，否则不得在素材确认前直接制作动画。
 
-## 已实现的三项动画技术
+## 已实现的动画技术
 
 ### 1. 图片轮播与平滑切换
 
@@ -75,6 +75,18 @@
 
 参考：[分层视差技术说明](references/parallax-morph.md)
 
+### 4. 四色网格图案平滑展开
+
+这是一项纯图形案例，不依赖人物或器材图标。四块颜色面和独立黑线从一张紧凑卡片展开成完整的城市分区构图，再收回原位。
+
+- 四个颜色面保持可编辑
+- 黑色分隔线独立移动和伸长
+- 白色底板在两页之间保持对应关系
+- 文字随构图显隐
+- 适合抽象海报、地图分区、信息架构和视觉系统演示
+
+参考：[四色网格图案技术说明](references/four-block-grid-morph.md)
+
 ## 独立能力：从新视频开发动画技术
 
 仓库还包含一项独立的技术开发能力，用来继续学习新的 PPT 动画：
@@ -98,6 +110,7 @@
 | 图片轮播 | [下载 PPT](examples/image-carousel-demo.pptx) | [静态预览](examples/image-carousel-preview.png) |
 | 三条文字递进 | [下载 PPT](examples/text-morph-3-line-demo.pptx) | [动态预览](examples/text-morph-3-line-preview.mp4) |
 | 李白酒杯视差 | [下载 PPT](examples/parallax-morph-li-bai-demo.pptx) | [动态预览](examples/parallax-morph-li-bai-preview.mp4) |
+| 四色网格图案展开 | [下载 PPT](examples/four-block-grid-morph-demo.pptx) | [动态预览](examples/four-block-grid-morph-preview.mp4) |
 
 ## 项目结构
 
