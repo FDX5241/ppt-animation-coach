@@ -6,11 +6,12 @@ Five rounded picture cards form a layered carousel: one large card in the center
 
 ## Construction rules
 
-1. Create the five rounded picture frames and shadows on the first slide.
-2. Apply picture fill, reflection, and no outline to each frame.
-3. Duplicate the entire slide four times. Do not copy all objects from the canvas into another existing slide, because PowerPoint can assign new object IDs and Morph will lose correspondence.
-4. Change only the picture fill assigned to each named frame on each duplicate. Use `new slot = old slot + 1`, wrapping after the rightmost slot.
-5. Put the center card in front. Put the far-right small card at the bottom when it overlaps the next card. Keep shadows behind their matching cards.
+1. Show the five candidate images to the user in their intended order. Flag low resolution, inconsistent aspect ratios, or crops that remove the subject, and wait for approval.
+2. Create the five rounded picture frames and shadows on the first slide.
+3. Apply picture fill, reflection, and no outline to each frame.
+4. Duplicate the entire slide four times. Do not copy all objects from the canvas into another existing slide, because PowerPoint can assign new object IDs and Morph will lose correspondence.
+5. Change only the picture fill assigned to each named frame on each duplicate. Use `new slot = old slot + 1`, wrapping after the rightmost slot.
+6. Put the center card in front. Put the far-right small card at the bottom when it overlaps the next card. Keep shadows behind their matching cards.
 
 ## Default parameters
 

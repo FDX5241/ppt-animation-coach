@@ -8,6 +8,13 @@ source record, example deck, and playback checks have been reviewed.
 | --- | --- | --- |
 | Image carousel | Duplicate slides, matched picture frames, Morph | Implemented |
 | Three-line text progression | Duplicate slides, matched text boxes, transparency changes, Morph | Implemented |
+| Layered parallax scene | Two character states, three depth layers, premultiplied-alpha blur, Morph | Implemented |
+
+## Technique development workflow
+
+| Capability | Workflow | Status |
+| --- | --- | --- |
+| Learn a new animation from video | One frame per second, verbal decomposition, asset approval, animation build, user acceptance | Implemented |
 
 ## Review requirements
 

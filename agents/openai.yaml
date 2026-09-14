@@ -1,7 +1,7 @@
 interface:
   display_name: "PPT Animation Coach"
-  short_description: "Create playable PPT animations and teach how they work"
-  default_prompt: "Use $ppt-animation-coach to add a suitable animation to my PowerPoint and explain how to reproduce it."
+  short_description: "Build editable Morph animations after reviewing visual assets"
+  default_prompt: "Use $ppt-animation-coach to identify the required assets, show me a preview for approval, and then build the selected PowerPoint animation."
 
 policy:
   allow_implicit_invocation: true
